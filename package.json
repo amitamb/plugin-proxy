@@ -1,0 +1,44 @@
+{
+  "name": "plugin-proxy",
+  "version": "0.0.5",
+  "description": "Node proxy with support to add JS/CSS code like browser plugin/userscript.",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitamb/plugin-proxy.git"
+  },
+  "keywords": [
+    "reverse",
+    "proxy",
+    "http",
+    "https",
+    "plugin",
+    "userscript",
+    "browser"
+  ],
+  "dependencies": {
+    "cloneextend": "0.0.3",
+    "concat-stream": "1.0.0",
+    "duplexer": "0.1.1",
+    "ejs": "^2.4.1",
+    "html-entities": "^1.2.0",
+    "http-proxy": "0.10.3",
+    "node-static": "0.7.0",
+    "sax": "0.5.5",
+    "through": "2.3.4",
+    "tough-cookie": "2.3.2",
+    "trumpet": "1.6.2",
+    "uglify-js": "^2.7.0",
+    "node-env-file": "0.1.3",
+    "iconv": "2.1.8"
+  },
+  "author": "Amit Ambardekar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amitamb/plugin-proxy/issues"
+  },
+  "homepage": "https://github.com/amitamb/plugin-proxy#readme"
+}
