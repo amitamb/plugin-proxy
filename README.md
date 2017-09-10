@@ -12,9 +12,12 @@ Node http proxy with support to add JS/CSS code like browser plugin/userscript.
 http://www.example.com.dev-proxy.castbin.com/
 `
 
-Replace www.example.com with any URL. As a general rule any URL can be proxied using following format
+Replace www.example.com with any URL.
+
+As a general rule any URL can be proxied using following format
 
 Original URL: http://www.anyurl.com/any/log/path?query=1
+
 Proxied URL: http://www.anyurl.com.dev-proxy.castbin.com/any/log/path?query=1
 
 You can use your own server with wildcard subdomain instead of dev-proxy.castbin.com by modifying PROXY_HOST in .env
