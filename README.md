@@ -5,6 +5,7 @@ Node http proxy with support to add JS/CSS code like browser plugin/userscript.
 # Usage
 
 1. Copy and rename .env-sample to .env and modify the settings or use default ones
+2. `npm install`
 2. Start the server with `sudo node src/server`
 3. Navigate to a proxied website with URL of following form
 
